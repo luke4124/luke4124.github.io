@@ -1,0 +1,266 @@
+<!doctype html>
+<html>
+
+	<head>
+		<title>Home</title>
+		
+		<link rel="StyleSheet" href="Styles.CSS">
+			
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+			
+		<link rel="icon" href="logos/HotBeansWeb.png" type="image/icon type">
+			
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			
+	</head>
+	
+	<body>
+	
+<!--Disclaimer-->
+	
+		<script>
+			alert('This is NOT a real company and is just an assignment for BTEC Level 3 IT Unit 6')
+		</script>		
+	
+	
+	
+<!--Cookie Monster-->
+		<script>
+
+			var x = confirm("Give cookies to Cookie Monster?");
+				if (x == true) {
+					alert("Cookie Monster appreciates the cookies :D");
+				}	
+				else {
+					window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+				}
+
+		</script>
+	
+<!--Navbar-->
+		
+		<section>
+			
+			<!--    Made by Erik Terwan    -->
+			<!--   24th of November 2015   -->
+			<!--        MIT License        -->
+			
+			<nav role="navigation">
+				<div id="menuToggle">
+					<input type="checkbox" />
+    
+						<span></span>
+						<span></span>
+						<span></span>
+    
+					<ul id="menu">
+						<a href="Home.html"><li>Home</li>	
+						<a href="Meet%20The%20Team.html"><li>Meet The Team</li></a>
+						<a href="Jobs.html"><li>Jobs</li></a>
+						<a href="Courses.html"><li>Courses</li></a>
+						<a href="About%20Us.html"><li>About Us</li></a>
+					</ul>
+				</div>
+ 			  	 
+			
+			</nav>  
+		</section>
+
+<!--logo-->
+		
+		<center>		
+			<a href="Home.html"><img src="logos/HotBeansWeb.png" class="center" style="height:200px; width:200px;"></a>
+		</center>	
+		
+		<br>
+		<br>
+		<br>
+		<br>
+
+<!--Header-->
+	
+		<center>
+			<header>
+				<h1 id="home">Home</h1>
+			</header>
+		</center>	
+		
+		<br>
+		
+<!--SlideShow-->
+
+		<center>
+		
+			<span>
+			
+				<style>
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+				</style>
+
+				<div class="slideshow-container">
+
+					<div class="mySlides fade">
+						<div class="numbertext">1 / 3</div>
+						<img src="assets/HappyWorkPlace.png" style="width:100%; box-shadow: 5px 10px 18px #888888;">
+					</div>
+
+					<div class="mySlides fade">
+						<div class="numbertext">2 / 3</div>
+						<img src="assets/WebDesigner.png" style="width:100%; box-shadow: 5px 10px 18px #888888;">
+					</div>
+
+					<div class="mySlides fade">
+						<div class="numbertext">3 / 3</div>
+						<img src="assets/Meeting.jpg" style="width:100%; box-shadow: 5px 10px 18px #888888;">
+					</div>
+
+				</div>
+		
+				<br>
+
+				<div style="text-align:center">
+					<span class="dot"></span> 
+					<span class="dot"></span> 
+					<span class="dot"></span> 
+				</div>
+
+				<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+				</script>
+			</span>
+			
+		</center>
+		
+		<br>	
+		<br>
+		<br>
+
+<!--content-->
+
+		<section>	
+			<article>
+				<p>Welcome to our website. We are a website development company. Here you can find information on what we do and our job openings. Our excellent team will help you find an entry point into the IT industry and also help you learn more about this ever growing-industry. 
+					If you want to get yourself into the IT line of work this would be a great place to start.</p>
+			</article>	
+			
+			<article>
+				<p>We are currently looking to hire new employees and expand our company. If you are interested check out our vacancies and qualifications page.
+					If you need more practice developing websites then you can check out the web courses page on our website. There you will find links that will teach you more about developing websites.</p>
+			</article>
+		</section>
+
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+
+<!--Footer-->
+
+		<div class="footer-basic">
+			<footer>
+		
+				<div class="social">
+					<a href="https://twitter.com/?lang=en-gb"target="_blank"><i class="icon ion-social-twitter"></i></a>
+					<a href="https://en-gb.facebook.com/"target="_blank"><i class="icon ion-social-facebook"></i></a>
+				</div>
+			
+				<p class="copyright">Hot Beans Web © 2022</p>
+			
+			</footer>
+		</div>
+	
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+	
+	</body>
+</html>

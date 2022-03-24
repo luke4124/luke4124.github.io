@@ -1,0 +1,295 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Jobs</title>
+		
+		<link rel="StyleSheet" href="Styles.CSS">
+			
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+			
+		<link rel="icon" href="logos/HotBeansWeb.png" type="image/icon type">
+			
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				
+	</head>
+	
+	<body>
+	
+<!--Navbar-->
+	
+		<section>
+			
+					<!--    Made by Erik Terwan    -->
+					<!--   24th of November 2015   -->
+					<!--        MIT License        -->
+			<nav role="navigation">
+				<div id="menuToggle">
+
+					<input type="checkbox" />
+    
+						<span></span>
+						<span></span>
+						<span></span>
+    
+					<ul id="menu">
+						<a href="Home.html"><li>Home</li>	
+						<a href="Meet%20The%20Team.html"><li>Meet The Team</li></a>
+						<a href="Jobs.html"><li>Jobs</li></a>
+						<a href="Courses.html"><li>Courses</li></a>
+						<a href="About%20Us.html"><li>About Us</li></a>
+					</ul>
+				</div>
+ 			  	 
+			
+			</nav>  
+		</section>
+
+<!--logo-->
+		
+		<center>		
+			<a href="Home.html"><img src="logos/HotBeansWeb.png" class="center" style="height:200px; width:200px;"></a>
+		</center>
+		
+		<br>
+		<br>
+		<br>
+		<br>
+
+<!--Header-->
+			
+		<center>		
+			<header>
+				<h1 id="home">Jobs</h1>
+			</header>
+		</center>		
+		
+		<br>
+		
+<!--Job Application-->
+
+		<style>
+/*careers*/
+
+.tab {
+    overflow: hidden;
+}
+.tab button {
+    background-color: black;
+	color:white;
+    width: 20%;
+    float: ;
+    border: none;
+    outline: none;
+    padding: 10px 12px;
+    height: 80px;
+    font-size: 12px;
+}
+.tab button:hover {
+    background-color: tomato;
+}
+.tab button.active {
+    background-color: #6D6D6D;
+}
+.tabcontent {
+    display: none;
+    color : black;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: tomato;
+	width:60%;
+}
+.appform{
+    padding-top: 1%;
+    width: 100%; 
+}
+.appform h2{
+    text-align: center;
+}
+.appform select {
+    width: 92%;
+    margin-left:5%;
+    font-size: 18px;
+}
+.textincolumn-left{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+.textincolumn-right{
+    width: 40%;
+    float: right;
+    margin-right: 6%;
+}
+.textin{
+    margin-top: 4%;
+    text-align: center;
+}
+.appform input[type=text]{
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+.appform input[type=file]{
+    margin-top:20px;
+    margin-left: 5%;
+    width: 90%;
+}
+.cv{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-top: 23px;
+}
+.cv input[type=text]{
+    width:66%;
+    margin-top: 5px:
+}
+.cv input[type=button]{
+    border: none;
+    width: 20%;
+    padding: 7px;
+    margin-top: 5px;
+}
+.appform input[type=submit]{
+    width: 90%;
+    margin-left: 5%;
+    padding: 7px;
+    border: none;
+    font-size: 17px;
+    margin-bottom: 30px;
+    background-color: tomato
+}
+		</style>	
+		
+		<center>
+			<div class="careers">
+            
+				<div class="tab">
+					<button class="tablinks" onclick="Job(event, 'WebDes')">Web Designer</button>
+					<button class="tablinks" onclick="Job(event, 'WebDev-back')">Web Developer - Back End</button>
+					<button class="tablinks" onclick="Job(event, 'WebDev-front')">Web Developer - Front End</button>
+					<button class="tablinks" onclick="Job(event, 'ITTech')">IT Technician</button>
+				</div>
+			
+				<div id="WebDes" class="tabcontent"  >
+					<h3>Web Designer</h3>
+					<p>Web Designers are responsible for designing a website, creating its look, layout and features. We are looking for web designers that can bring new, creative ideas to the table. You would be working closely with the rest of our development team and our customers to create and revamp innovative websites. </p>
+					<h3>Experience</h3>
+					<p>HTML<br>CSS<br>Adobe Illistrator<br>Adobe Photoshop</p>
+				</div>
+
+				<div id="WebDev-back" class="tabcontent">
+					<h3>Web Developer - Back End</h3>
+					<p>Back end developers are responsible for develpoing and maintaining the technology that powers wesbites servers and databases. You will be working with customers to understand thier needs, and comming up with effective and efficient coding solutions to meet them.</p> 
+					<h3>Experience</h3>
+					<p>HTML<br>JavaScript<br>PHP<br>SQL<br>Python</p>
+				</div>
+
+				<div id="WebDev-front" class="tabcontent">
+					<h3>Web Developer - Front End</h3>
+					<p>Front end developers bring the web designs to life by creating innovative user interfaces that give the best experience possible. They work closely with the desginers and back end developers to create a user interface that is visualy stunning and fufills its purpouse. </p>
+					<h3>Experience</h3>
+					<p>HTML<br>CSS<br>JavaScript<br>BootStrap</p>
+				</div>
+				
+				<div id="ITTech" class="tabcontent">
+					<h3>IT Technician</h3>
+					<p>IT Technicians are vital to the business, maintaing our hardware and our networks to ensure they are always working properly and efficiently. IT techs must be able to diagnose and repair any problems with systems to ensure the business is running smoothly.</p>
+					<h3>Experience</h3>
+					<p>Degree in Computer Science / Relevant subject<br>Indepth Knowlege of Hardware and Software<br>Problem Solving Skills<br>Communication Skills<br>Prefered - Previous technician experience</p>
+				</div>
+		</center>            
+
+		<script>
+                function Job(evt, title) {
+                    var i, tabcontent, tablinks;
+                    tabcontent = document.getElementsByClassName("tabcontent");
+                    for (i = 0; i < tabcontent.length; i++) {
+                        tabcontent[i].style.display = "none";
+                    }
+                    tablinks = document.getElementsByClassName("tablinks");
+                    for (i = 0; i < tablinks.length; i++) {
+                        tablinks[i].className = tablinks[i].className.replace(" active", "");
+                    }
+                    document.getElementById(title).style.display = "block";
+                    evt.currentTarget.className += " active";
+                    }
+        </script>
+        
+		</div>
+        
+			<div class="appform">
+				<h2>Application</h2>
+				
+				<form>
+					<select name="jobtile">
+						<option value="WebDesigner">Web Designer</option>
+						<option value="WebDev-Back">Web Developer - Back End</option>
+						<option value="WebDev-Front">Web Developer - Front End</option>
+						<option value="ITtech">IT Technician</option>
+					</select>										
+					
+					<div class="textincolumn-left">
+						<div class="textin">
+							First Name<input type="text" name="firstname" placeholder="First Name">
+						</div>
+						
+						<div class="textin">
+							Email Adress<input type="text" name="email" placeholder="example@gmail.com">
+						</div>
+					</div>
+					
+					<div class="textincolumn-right">
+						<div class="textin">
+							Surname<br><input type="text" name="surname" placeholder="Surname">
+						</div>
+						<div class="textin">
+							Phone Number <br><input type="text" name="phoneno" placeholder="07829 738232">
+						</div>
+					</div>
+					
+					<div class="cv">
+						Upload CV						
+						<br>						
+						<input id="txt" type = "text" placeholder="File Path" onclick ="javascript:document.getElementById('file').click();">
+						<input id="txt" type="button" value = "Upload File" onclick ="javascript:document.getElementById('file').click();">
+						<input id = "file" type="file" style='visibility: hidden;' name="img" onchange="ChangeText(this, 'txt');"/>
+					</div>
+					<input type="submit" value="Submit Application">
+				</form>
+        </div>
+        
+        <script>
+            function myFunction() {
+            var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+        x.style.display = "block";
+        }
+        }
+            
+        function ChangeText(oFileInput, sTargetID) {
+        document.getElementById(sTargetID).value = oFileInput.value;
+        }
+        </script>
+
+<!--Footer-->
+
+		<div class="footer-basic">
+			<footer>
+				<div class="social">
+					<a href="https://twitter.com/?lang=en-gb"target="_blank"><i class="icon ion-social-twitter"></i></a>
+					<a href="https://en-gb.facebook.com/"target="_blank"><i class="icon ion-social-facebook"></i></a>
+				</div>
+				<p class="copyright">Hot Beans Web © 2022</p>
+			</footer>
+		</div>
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+		
+	</body>
+</html>
